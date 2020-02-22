@@ -11,7 +11,7 @@ import java.util.Map;
 @ControllerAdvice
 public class GlobalData {
 
-    @ModelAttribute(value = "info",name = "info")
+    @ModelAttribute(value = "info", name = "info")
     public Map<String,Object> getData(){
         Map<String, Object> map = new HashMap<>();
         map.put("name","mango");
